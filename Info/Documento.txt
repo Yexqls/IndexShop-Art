@@ -1,0 +1,14 @@
+IndesShop-Art
+----Encabezado---
+----Datos de la pagina----
+
+Emncuentra la moda en nosotro(Imagen trasera)
+
+---Margenes para las imagenes---
+---imagen---
+---estrellas---
+---reviews---
+---Boton de añadir a carrito--
+
+---copyright---
+COn diferentes div para la separacion de las imagenes con su respectiva informacion y su reseña o descuento
