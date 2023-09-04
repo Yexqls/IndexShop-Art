@@ -12,3 +12,5 @@ Emncuentra la moda en nosotro(Imagen trasera)
 
 ---copyright---
 COn diferentes div para la separacion de las imagenes con su respectiva informacion y su reseña o descuento
+
+---Fotter---
