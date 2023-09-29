@@ -1,0 +1,36 @@
+body {
+    font-family: monospace; /* Estilo de fuente tipo consola */
+    background-color: #f2f2f2; /* Color de fondo */
+    text-align: center; /* Centrar el contenido */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: bold;
+    font-size: 18px; /* Tamaño de fuente más grande */
+}
+
+.form-control {
+    font-family: monospace;
+    font-size: 16px; /* Tamaño de fuente más grande */
+    margin-bottom: 20px; /* Espacio adicional entre los campos */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-family: monospace;
+    font-size: 18px; /* Tamaño de fuente más grande */
+}
+
+.registro-contenido {
+    margin-top: 20px; /* Espacio adicional arriba del contenido */
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="./Imagenes/favicon.ico">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>IndexShop-Art</title>
+</head>
+
+<body>
+    <div class="login-page">
+        <header class="header">
+            <img src="./Imagenes/logo.png" alt="Logo" class="logo" draggable="false">
+        </header>
+
+        <main>
+            <div class="iniciasesion">
+                <h2>Inicia sesión</h2>
+                <input type="text" name="nombre" id="nombre" placeholder="Email"
+                    autocomplete="off">
+                <input type="password" name="contrasena" id="contrasena" placeholder="Contraseña">
+                <input type="submit" class="botonInicio" value="Iniciar sesión">
+                <div class="ayuda">
+                    <div class="check">
+                        <input type="checkbox" name="recordar" id="recordar">
+                        <label for="recordar">Recuérdame</label>
+                    </div>
+                </div>
+                <div class="footer-iniciasesion">
+                    <p class="nuevo">
+                        ¿Primera vez en IndexShop-Art?
+                        <a href="RegistroUser.html">Registrate ahora</a>
+                        .
+                    </p>
+                    <div class="proteger">
+                        Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot.
+                        <a href="#">Más info.</a>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="informacion">
+                <p>
+                    ¿Preguntas? Llama al
+                    <a href="tel:800-562-9874">800-562-9874</a>
+                </p>
+                <ul class="links">
+                    <li class="links_item"><a href="#">Preguntas
+                            frecuentes</a></li>
+                    <li class="links_item"><a href="#">Centro de ayuda</a>
+                    </li>
+                    <li class="links_item"><a href="#">Términos
+                            de uso</a></li>
+                    <li class="links_item"><a href="#"
+                        >Privacidad</a></li>
+                    <li class="links_item"><a href="#"
+                        >Preferencias de cookies</a></li>
+                    <li class="links_item"><a href="#">Información
+                            corporativa</a></li>
+                </ul>
+                <select name="idioma" id="idioma">
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
